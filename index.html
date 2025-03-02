@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBoard</title>
+      <!-- DaidyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<style>
+    .font-poppins{
+    font-family: "Poppins";
+  }
+</style>
+  
+  <!-- Google Font CDN -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#F4F7FF",
+            Secondary: "#F4F7FF"
+
+          }
+        }
+      }
+    }
+  </script>
+<body class="h-auto bg-primary font-poppins">
+    <!-- navbar section start -->
+    <header class="items-cente max-w-screen-2xl mx-auto bg-primary mb-5">
+        <nav class="bg-white rounded-2xl">
+<div class="flex justify-between px-6 py-6">
+    <div class="flex items-center">
+        <div class="ml-6 mr-3">
+            <img src="images/logo.png" alt="">
+        </div>
+        <h1 class="text-2xl">Dev<span class="text-2xl font-bold">Board</span></h1>
+    </div>
+    <div class="flex space-x-9">
+        <div class="flex items-center bg-primary px-4 py-3 rounded-3xl">
+            <div class="pr-2">
+                <img src="images/checkbox.png" alt="">
+            </div>
+            <p class="font-bold text-2xl">23</p>
+        </div>
+        <div class="bg-primary p-3 rounded-full">
+            <img src="images/theme-btn.png" alt="">
+        </div>
+    </div>
+</div>
+        </nav>
+    </header>
+        <!-- navbar section start -->
+<main>
+<section class="rounded-2xl items-cente max-w-screen-2xl mx-auto">
+<div class="grid grid-flow-col ">
+    <div class="flex px-6 py-6 space-x-6 justify-between bg-white  rounded-xl">
+        <div class="items-center flex pt-8 pb-6 pl-8 pr-5 bg-[#F4F7FF] w-3/12">
+            <div class="p-5  bg-white rounded-full mr-5">
+                <img src="images/checkbox.png" alt="">
+            </div>
+            <div>
+                <h2 class="text-xs font-semibold">Task Assigned</h2>
+                <p class="text-2xl font-bold">05</p>
+            </div>
+        </div>
+    
+        <div class="flex items-center bg-gradient-to-br from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] rounded-xl w-6/12">
+            <div class="pl-10">
+                <img src="images/board.png" alt="">
+            </div>
+    
+                <h2 class="pl-6 text-white text-2xl">Discover Something <br>New Today!</h2>
+            
+        </div>
+        <div class="items-center flex pt-8 pb-6 pl-8 pr-5 bg-primary rounded-xl w-3/12">
+            <div class="p-5  bg-white rounded-full mr-5">
+                <img src="images/checkbox.png" alt="">
+            </div>
+            <div>
+                <h2 class="text-xs font-semibold">Task Assigned</h2>
+                <p class="text-2xl font-bold">05</p>
+            </div>
+        </div>
+    
+
+    </div>
+    <!-- sidebar section start -->
+<div class="flex justify-end ">
+    <div class="w-11/12 bg-white rounded-xl">
+        <div class="flex flex-col mt-6">
+            <div class="flex justify-center">
+                <img src="images/activity.png" alt="">
+                <h2>Activity Log</h2>
+               
+            </div>
+           <div class="flex justify-center mt-4">
+            <button class="btn btn-primary mb-4">Primary</button>
+           </div>
+           <hr>
+        </div>
+    </div>
+</div>
+
+</div>
+</section>
+
+</main>
+</body>
+</html>
