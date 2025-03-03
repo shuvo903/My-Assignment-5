@@ -10,8 +10,16 @@ document.getElementById('cardBtn-1').addEventListener('click',function(){
     const taskAssigned = document.getElementById('Minus-point').innerText;
     const convartedTaskAssigned = parseFloat(taskAssigned);
     const minus = convartedTaskAssigned - 1;
+    if(minus === 0){
+        alert('Congrats!!! You have Completed all the current task')
+    }
+    else{
+        
+    }
     document.getElementById('Minus-point').innerText = minus;
-    
+
+
+ 
     // Sum-the Task Assigned points in a click =>
 
     const navBarPoint = document.getElementById('navbar-point').innerText;
@@ -35,6 +43,12 @@ document.getElementById('cardBtn-2').addEventListener('click',function(){
     const taskAssigned = document.getElementById('Minus-point').innerText;
     const convartedTaskAssigned = parseFloat(taskAssigned);
     const minus = convartedTaskAssigned - 1;
+    if(minus === 0){
+        alert('Congrats!!! You have Completed all the current task')
+    }
+    else{
+        
+    }
     document.getElementById('Minus-point').innerText = minus;
     
     // Sum-the Task Assigned points in a click =>
@@ -64,6 +78,12 @@ document.getElementById('cardBtn-3').addEventListener('click',function(){
     const taskAssigned = document.getElementById('Minus-point').innerText;
     const convartedTaskAssigned = parseFloat(taskAssigned);
     const minus = convartedTaskAssigned - 1;
+    if(minus === 0){
+        alert('Congrats!!! You have Completed all the current task')
+    }
+    else{
+        
+    }
     document.getElementById('Minus-point').innerText = minus;
     
     // Sum-the Task Assigned points in a click =>
@@ -93,6 +113,12 @@ document.getElementById('cardBtn-4').addEventListener('click',function(){
     const taskAssigned = document.getElementById('Minus-point').innerText;
     const convartedTaskAssigned = parseFloat(taskAssigned);
     const minus = convartedTaskAssigned - 1;
+    if(minus === 0){
+        alert('Congrats!!! You have Completed all the current task')
+    }
+    else{
+        
+    }
     document.getElementById('Minus-point').innerText = minus;
     
     // Sum-the Task Assigned points in a click =>
@@ -122,6 +148,12 @@ document.getElementById('cardBtn-5').addEventListener('click',function(){
     const taskAssigned = document.getElementById('Minus-point').innerText;
     const convartedTaskAssigned = parseFloat(taskAssigned);
     const minus = convartedTaskAssigned - 1;
+    if(minus === 0){
+        alert('Congrats!!! You have Completed all the current task')
+    }
+    else{
+        
+    }
     document.getElementById('Minus-point').innerText = minus;
     
     // Sum-the Task Assigned points in a click =>
@@ -151,6 +183,16 @@ document.getElementById('cardBtn-6').addEventListener('click',function(){
     const taskAssigned = document.getElementById('Minus-point').innerText;
     const convartedTaskAssigned = parseFloat(taskAssigned);
     const minus = convartedTaskAssigned - 1;
+    
+
+
+    if(minus === 0){
+        alert('Congrats!!! You have Completed all the current task')
+    }
+    else{
+        
+    }
+ 
     document.getElementById('Minus-point').innerText = minus;
     
     // Sum-the Task Assigned points in a click =>
@@ -162,7 +204,6 @@ document.getElementById('cardBtn-6').addEventListener('click',function(){
 
 
     
-    
 })
 
 function btn6Disabled(){
@@ -170,6 +211,3 @@ function btn6Disabled(){
 }
 
 
-//  const button2 = document.getElementById('cardBtn-2').addEventListener('click',function(){
-//     button2.disabled = true;
-// })
