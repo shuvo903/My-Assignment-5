@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#F4F7FF]">
+    <section class="max-w-screen-2xl mx-auto pt-6 mb-6 px-2 md:px-4">
+        <nav class="bg-white rounded-2xl shadow">
+            <div class="flex items-center justify-between px-6 py-4">
+                <div class="flex items-center gap-x-3">
+                    <img src="images/logo.png" alt="Navigation ber logo">
+                    <h3 class="text-4xl hidden md:block">Dev<span class="font-bold">Board</span>
+                    </h3>
+                </div>
+                <div>
+                    <a href="./index.html"><button id="click-nav-btn" class="bg-[#3752FD] rounded-lg py-[10px] px-[20px] text-white font-medium cursor-pointer">Back to Desk</button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <h2 class="font-bold text-4xl md:text-5xl text-center my-10">Blogs</h2>
+
+    <section class="max-w-screen-2xl mx-auto space-y-10 pb-10 px-2 md:px-4">
+        <!-- questions no : 1 -->
+        <div class="bg-white rounded-xl p-7 shadow">
+            <h3 class="font-bold text-[20px] md:text-3xl border-b-2 border-dashed border-blue-100 mb-5 pb-5">
+                Question-1:    What are the different ways to select an element in the DOM?
+            </h3>
+            <p class="text-[16px] md:text-[20px] text-gray-600"> 
+                <span class="font-semibold">
+                    There are different ways to select an element in the DOM. They are written below :
+                </span> <br>
+                <span class="font-semibold">
+                    1. getElementById:
+                </span> 
+                  When a specific element is needed, it is used by taking the I'd name of that element. Due to which that element can be accessed very easily.
+                <br>
+                <span class="font-semibold">
+                    2. getElementsByClassName:
+                </span> 
+                  When you want to get some elements together, it is used by giving the same Class name of each element.
+                <br>
+                <span class="font-semibold">
+                    3. getElementsByTagName:
+                </span> 
+                  When you need all the elements with the same Tag, it is used.
+                <br>
+                <span class="font-semibold">
+                    4. quarySelectorAll:
+                </span> 
+                  This is also used when you need all the elements with the same class name.
+                <br>
+                <span class="font-semibold">
+                    5.quarySelector:
+                </span>
+                  When you need to get that element with its class name, it is used.
+            </p>
+        </div>
+        <!-- questions no : 2 -->
+        <div class="bg-white rounded-xl p-7 shadow">
+            <h3 class="font-bold text-[20px] md:text-3xl border-b-2 border-dashed border-blue-100 mb-5 pb-5">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h3>
+            <p class="text-[16px] md:text-[20px] text-gray-600">
+                <span class="font-semibold">
+                    These three properties are used to get or set the inner content of an element in the DOM (Document Object Model). However, they work differently.
+                </span> <br> 
+                <span class="font-semibold">
+                    1. innerHTML :    
+                </span>
+                It gets or sets the full HTML code (including tags) of an element and it parses the HTML and renders the inner tags. It is possible to inject new HTML tags through it. <br> 
+                <span class="font-semibold">
+                    2. innerText :
+                </span> 
+                When we are needs inner text in a tags then we are use the innerText property. By using innerText we can also set the internal value of a tag. <br> 
+                <span class="font-semibold">
+                     3. textContent :
+                </span> 
+                    This returns the full text content of the element, even if hidden by CSS.
+                    Ignores HTML tags and shows the full text.
+            </p>
+        </div>
+        <!-- questions no : 3 -->
+        <div class="bg-white rounded-xl p-7 shadow">
+            <h3 class="font-bold text-[20px] md:text-3xl border-b-2 border-dashed border-blue-100 mb-5 pb-5">Question-3: What is event delegation in the DOM?</h3>
+            <p class="text-[16px] md:text-[20px] text-gray-600">
+                Event delegation is a technique of javascript, where an event listener is set on a parent element and its child element's event is handled. <br> This is especially useful when adding event handlers for multiple child elements of the same type.
+            </p>
+        </div>
+        <!-- questions no : 4 -->
+        <div class="bg-white rounded-xl p-7 shadow">
+            <h3 class="font-bold text-[20px] md:text-3xl border-b-2 border-dashed border-blue-100 mb-5 pb-5">Question-4: What is event bubbling in the DOM?</h3>
+            <p class="text-[16px] md:text-[20px] text-gray-600">
+                Event Bubbling is a behavior of JavaScript DOM Events, This is a process of event handling where an event first triggers a child element,  then peopagates step by step to the parent elements  above. <br> And it can be stopped by stopPropagate and stopImiditePropagate.
+            </p>
+        </div>
+        <!-- questions no : 5 -->
+        <div class="bg-white rounded-xl p-7 shadow">
+            <h3 class="font-bold text-[20px] md:text-3xl border-b-2 border-dashed border-blue-100 mb-5 pb-5">Question-5: How do you create, add, and remove elements using JavaScript?</h3>
+            <p class="text-[16px] md:text-[20px] text-gray-600">
+                Using createElement and removeChild <br>
+                In this approach, we are using the createElement() method to dynamically add a new HTML tag and the removeChild method to remove it.
+            </p>
+        </div>
+    </section>
+    
+    <script>
+        document.getElementById("shift-btn").addEventListener("click", function(){
+            window.location.href = "index.html";
+        })
+    </script>
+</body>
+</html>
