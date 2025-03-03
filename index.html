@@ -40,7 +40,7 @@
                         <div class="pr-2">
                             <img src="images/checkbox.png" alt="">
                         </div>
-                        <p class="font-bold text-2xl">23</p>
+                        <p id="navbar-point" class="font-bold text-2xl">23</p>
                     </div>
                     <div class="bg-[#F4F7FF] p-3 rounded-full">
                         <img src="images/theme-btn.png" alt="">
@@ -64,7 +64,10 @@
                         </div>
                         <div>
                             <h2 class="text-xs font-semibold">Task Assigned</h2>
-                            <p class="text-2xl font-bold">05</p>
+                            <div class="flex">
+                                <p class="text-2xl font-bold">0</p>
+                            <p id="Minus-point" class="text-2xl font-bold">5</p>
+                            </div>
                         </div>
                     </div>
 
@@ -117,7 +120,7 @@
                                 <h4 class="font-semibold text-xs">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                <button onclick="btn1Disabled()" id="cardBtn-1" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -143,7 +146,7 @@
                                 <h4 class="font-semibold text-xs">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                <button onclick="btn2Disabled()" id="cardBtn-2" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -169,7 +172,7 @@
                                 <h4 class="font-semibold text-xs">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                <button onclick="btn3Disabled()" id="cardBtn-3" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -195,7 +198,7 @@
                                 <h4 class="font-semibold text-xs">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                <button onclick="btn4Disabled()" id="cardBtn-4" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -221,7 +224,7 @@
                                 <h4 class="font-semibold text-xs">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                <button onclick="btn5Disabled()" id="cardBtn-5" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -247,7 +250,7 @@
                                 <h4 class="font-semibold text-xs">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                <button onclick="btn6Disabled()" id="cardBtn-6" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -279,6 +282,7 @@
     </section> 
 </section>
     </main>
+    <script src="js/cardBoxs.js"></script>
 </body>
 
 </html>
