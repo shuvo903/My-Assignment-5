@@ -51,237 +51,257 @@
     </header>
     <!-- navbar section start -->
     <main class=" max-w-screen-2xl mx-auto ">
-<section class="flex justify-between">
-    
-    <section class="bg-white rounded-2xl items-cente w-3/4 ">
-        <section class="rounded-2xl items-cente">
-            <div class="grid grid-flow-col ">
+        <section class="flex justify-between">
 
-                <div class="flex px-6 py-6 space-x-6 justify-between bg-white  rounded-xl">
-                    <div class="items-center flex pt-8 pb-6 pl-8 pr-5 bg-[#F4F7FF] w-3/12">
-                        <div class="p-5  bg-white rounded-full mr-5">
-                            <img src="images/checkbox.png" alt="">
-                        </div>
-                        <div>
-                            <h2 class="text-xs font-semibold">Task Assigned</h2>
-                            <div class="flex">
-                                <p class="text-2xl font-bold">0</p>
-                            <p id="Minus-point" class="text-2xl font-bold">6</p>
+            <section class="bg-white rounded-2xl items-cente w-3/4 ">
+                <section class="rounded-2xl items-cente">
+                    <div class="grid grid-flow-col ">
+
+                        <div class="flex px-6 py-6 space-x-6 justify-between bg-white  rounded-xl">
+                            <div class="items-center flex pt-8 pb-6 pl-8 pr-5 bg-[#F4F7FF] w-3/12">
+                                <div class="p-5  bg-white rounded-full mr-5">
+                                    <img src="images/checkbox.png" alt="">
+                                </div>
+                                <div>
+                                    <h2 class="text-xs font-semibold">Task Assigned</h2>
+                                    <div class="flex">
+                                        <p class="text-2xl font-bold">0</p>
+                                        <p id="Minus-point" class="text-2xl font-bold">6</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="items-center bg-gradient-to-br from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] rounded-xl w-6/12"
+                                href="./Blogs.html">
+                                <div class="flex items-center ">
+                                    <div class="pl-10 mt-7">
+                                        <img src="images/board.png" alt="">
+                                    </div>
+
+                                    <h2 class="cursor-pointer pl-6 text-white text-2xl mt-7">Discover Something <br>New
+                                        Today!</h2>
+
+                                </div>
+                            </a>
+                            <div class="items-center flex pt-8 pb-6 pl-8 pr-5 bg-[#F4F7FF] rounded-xl w-3/12">
+                                <div class="p-5  bg-white rounded-full mr-5">
+                                    <img src="images/calender.png" alt="">
+                                </div>
+                                <div id="dayYearName">
+
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <a class="items-center bg-gradient-to-br from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] rounded-xl w-6/12" href="./bloge.html">
-                        <div class="flex items-center ">
-                        <div class="pl-10 mt-7">
-                            <img src="images/board.png" alt="">
+                </section>
+
+
+                <!--Cards section start  -->
+                <section class="rounded-2xl items-cente max-w-screen-2xl mx-auto px-6">
+                    <hr class="items-start border-b-0 border-dashed border-[#b4c6f7] mb-8">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 pb-5 lg:pb-0 mb-8">
+                        <!-- card-1 -->
+                        <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
+                            <div class="text-left items-start ">
+                                <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
+                                    <p class="text-[#00303C]">ShopEase2</p>
+                                </div>
+                                <h2 id="card-1-title" class="card-title mb-4">Fix Mobile Button Issue </h2>
+                                <div class="bg-white rounded-lg items-start mb-4">
+                                    <p class="py-4 px-4 text-[#0000008e]">Debug using Chrome <br>DevTools, check for
+                                        overlappi...</p>
+                                </div>
+
+                                <div
+                                    class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
+                                </div>
+
+                                <div class="flex justify-between items-center tec mt-4">
+                                    <div>
+                                        <p class="text-[#00303C]">Deadline</p>
+                                        <h4 class="font-semibold text-xs">21 March 2025</h4>
+                                    </div>
+                                    <div>
+                                        <button onclick="btn1Disabled()" id="cardBtn-1"
+                                            class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
-                        <h2 class="cursor-pointer pl-6 text-white text-2xl mt-7">Discover Something <br>New Today!</h2>
+                        <!-- card-2 -->
+                        <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
+                            <div class="text-left items-start ">
+                                <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
+                                    <p class="text-[#00303C]">CloudSync</p>
+                                </div>
+                                <h2 id="card-2-title" class="card-title mb-4">Add Dark Mode</h2>
+                                <div class="bg-white rounded-lg items-start mb-4">
+                                    <p class="py-4 px-4 text-[#0000008e]">Store the user's preference in
+                                        <br>localStorage, update CSS varia...</p>
+                                </div>
 
+                                <div
+                                    class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
+                                </div>
+
+                                <div class="flex justify-between items-center tec mt-4">
+                                    <div>
+                                        <p class="text-[#00303C]">Deadline</p>
+                                        <h4 class="font-semibold text-xs">21 March 2025</h4>
+                                    </div>
+                                    <div>
+                                        <button onclick="btn2Disabled()" id="cardBtn-2"
+                                            class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-3 -->
+                        <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
+                            <div class="text-left items-start ">
+                                <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
+                                    <p class="text-[#00303C]">SwiftPay</p>
+                                </div>
+                                <h2 id="card-3-title" class="card-title mb-4">Optimize Home page </h2>
+                                <div class="bg-white rounded-lg items-start mb-4">
+                                    <p class="py-4 px-4 text-[#0000008e]">Store the user's preference in
+                                        <br>localStorage, update CSS varia...</p>
+                                </div>
+
+                                <div
+                                    class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
+                                </div>
+
+                                <div class="flex justify-between items-center tec mt-4">
+                                    <div>
+                                        <p class="text-[#00303C]">Deadline</p>
+                                        <h4 class="font-semibold text-xs">21 March 2025</h4>
+                                    </div>
+                                    <div>
+                                        <button onclick="btn3Disabled()" id="cardBtn-3"
+                                            class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-4 -->
+                        <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
+                            <div class="text-left items-start ">
+                                <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
+                                    <p class="text-[#00303C]">Meta</p>
+                                </div>
+                                <h2 id="card-4-title" class="card-title mb-4">Add new emoji 🤲 </h2>
+                                <div class="bg-white rounded-lg items-start mb-4">
+                                    <p class="py-4 px-4 text-[#0000008e]">Debug using Chrome <br>DevTools, check for
+                                        overlappi...</p>
+                                </div>
+
+                                <div
+                                    class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
+                                </div>
+
+                                <div class="flex justify-between items-center tec mt-4">
+                                    <div>
+                                        <p class="text-[#00303C]">Deadline</p>
+                                        <h4 class="font-semibold text-xs">21 March 2025</h4>
+                                    </div>
+                                    <div>
+                                        <button onclick="btn4Disabled()" id="cardBtn-4"
+                                            class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-5 -->
+                        <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
+                            <div class="text-left items-start ">
+                                <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
+                                    <p class="text-[#00303C]">Google LLC</p>
+                                </div>
+                                <h2 id="card-5-title" class="card-title mb-4">Integrate OpenAI API </h2>
+                                <div class="bg-white rounded-lg items-start mb-4">
+                                    <p class="py-4 px-4 text-[#0000008e]">Debug using Chrome <br>DevTools, check for
+                                        overlappi...</p>
+                                </div>
+
+                                <div
+                                    class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
+                                </div>
+
+                                <div class="flex justify-between items-center tec mt-4">
+                                    <div>
+                                        <p class="text-[#00303C]">Deadline</p>
+                                        <h4 class="font-semibold text-xs">21 March 2025</h4>
+                                    </div>
+                                    <div>
+                                        <button onclick="btn5Disabled()" id="cardBtn-5"
+                                            class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-6 -->
+                        <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
+                            <div class="text-left items-start ">
+                                <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
+                                    <p class="text-[#00303C]">Glassdoar</p>
+                                </div>
+                                <h2 id="card-6-title" class="card-title mb-4">Improve Job searching </h2>
+                                <div class="bg-white rounded-lg items-start mb-4">
+                                    <p class="py-4 px-4 text-[#0000008e]">Debug using Chrome <br>DevTools, check for
+                                        overlappi...</p>
+                                </div>
+
+                                <div
+                                    class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
+                                </div>
+
+                                <div class="flex justify-between items-center tec mt-4">
+                                    <div>
+                                        <p class="text-[#00303C]">Deadline</p>
+                                        <h4 class="font-semibold text-xs">21 March 2025</h4>
+                                    </div>
+                                    <div>
+                                        <button onclick="btn6Disabled()" id="cardBtn-6"
+                                            class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    </a>
-                    <div class="items-center flex pt-8 pb-6 pl-8 pr-5 bg-[#F4F7FF] rounded-xl w-3/12">
-                        <div class="p-5  bg-white rounded-full mr-5">
-                            <img src="images/calender.png" alt="">
-                        </div>
-                        <div>
-                            <h2 class="text-xs font-semibold ">Task Assigned</h2>
-                            <p class="text-2xl font-bold">05</p>
+                    </div>
+
+                </section>
+
+            </section>
+            <section class=" rounded-2xl mx-auto bg-white w-1/4 ml-6">
+                <!-- sidebar section start -->
+                <div class="flex justify-center">
+                    <div class="w-11/12 bg-white rounded-xl">
+                        <div class="flex flex-col mt-6">
+                            <div class="flex justify-center ">
+                                <img src="images/activity.png" alt="">
+                                <h2 class="pl-2 font-semibold">Activity Log</h2>
+
+                            </div>
+                            <div class="flex justify-center mt-4">
+                                <button id="clearHistoryBtn" class="btn btn-primary bg-[#3752FD] rounded-lg mb-4">Clear
+                                    History</button>
+                            </div>
+                            <hr class="border-b-0 border-dashed border-[#b4c6f7]">
                         </div>
                     </div>
                 </div>
-            </div>
-            
+
+                <div id="Activity-History">
+
+                </div>
+
+            </section>
         </section>
-
-
-        <!--Cards section start  -->
-        <section class="rounded-2xl items-cente max-w-screen-2xl mx-auto px-6">
-            <hr class="items-start border-b-0 border-dashed border-[#b4c6f7] mb-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 pb-5 lg:pb-0 mb-8">
-                <!-- card-1 -->
-                <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
-                    <div class="text-left items-start ">
-                        <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
-                            <p class="text-[#00303C]">ShopEase2</p>
-                        </div>
-                        <h2 class="card-title mb-4">Fix Mobile Button Issue </h2>
-                        <div class="bg-white rounded-lg items-start mb-4">
-                            <p class="py-4 px-4 text-[#0000008e]">Debug using Chrome <br>DevTools, check for
-                                overlappi...</p>
-                        </div>
-
-                        <div class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
-                        </div>
-
-                        <div class="flex justify-between items-center tec mt-4">
-                            <div>
-                                <p class="text-[#00303C]">Deadline</p>
-                                <h4 class="font-semibold text-xs">21 March 2025</h4>
-                            </div>
-                            <div>
-                                <button onclick="btn1Disabled()" id="cardBtn-1" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- card-2 -->
-                <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
-                    <div class="text-left items-start ">
-                        <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
-                            <p class="text-[#00303C]">CloudSync</p>
-                        </div>
-                        <h2 class="card-title mb-4">Fix Mobile Button Issue </h2>
-                        <div class="bg-white rounded-lg items-start mb-4">
-                            <p class="py-4 px-4 text-[#0000008e]">Store the user's preference in <br>localStorage, update CSS varia...</p>
-                        </div>
-
-                        <div class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
-                        </div>
-
-                        <div class="flex justify-between items-center tec mt-4">
-                            <div>
-                                <p class="text-[#00303C]">Deadline</p>
-                                <h4 class="font-semibold text-xs">21 March 2025</h4>
-                            </div>
-                            <div>
-                                <button onclick="btn2Disabled()" id="cardBtn-2" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- card-3 -->
-                <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
-                    <div class="text-left items-start ">
-                        <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
-                            <p class="text-[#00303C]">SwiftPay</p>
-                        </div>
-                        <h2 class="card-title mb-4">Optimize  Home page </h2>
-                        <div class="bg-white rounded-lg items-start mb-4">
-                            <p class="py-4 px-4 text-[#0000008e]">Store the user's preference in <br>localStorage, update CSS varia...</p>
-                        </div>
-
-                        <div class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
-                        </div>
-
-                        <div class="flex justify-between items-center tec mt-4">
-                            <div>
-                                <p class="text-[#00303C]">Deadline</p>
-                                <h4 class="font-semibold text-xs">21 March 2025</h4>
-                            </div>
-                            <div>
-                                <button onclick="btn3Disabled()" id="cardBtn-3" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- card-4 -->
-                <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
-                    <div class="text-left items-start ">
-                        <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
-                            <p class="text-[#00303C]">Meta</p>
-                        </div>
-                        <h2 class="card-title mb-4">Add new emoji 🤲 </h2>
-                        <div class="bg-white rounded-lg items-start mb-4">
-                            <p class="py-4 px-4 text-[#0000008e]">Debug using Chrome <br>DevTools, check for
-                                overlappi...</p>
-                        </div>
-
-                        <div class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
-                        </div>
-
-                        <div class="flex justify-between items-center tec mt-4">
-                            <div>
-                                <p class="text-[#00303C]">Deadline</p>
-                                <h4 class="font-semibold text-xs">21 March 2025</h4>
-                            </div>
-                            <div>
-                                <button onclick="btn4Disabled()" id="cardBtn-4" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- card-5 -->
-                <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
-                    <div class="text-left items-start ">
-                        <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
-                            <p class="text-[#00303C]">Google LLC</p>
-                        </div>
-                        <h2 class="card-title mb-4">Integrate OpenAI API </h2>
-                        <div class="bg-white rounded-lg items-start mb-4">
-                            <p class="py-4 px-4 text-[#0000008e]">Debug using Chrome <br>DevTools, check for
-                                overlappi...</p>
-                        </div>
-
-                        <div class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
-                        </div>
-
-                        <div class="flex justify-between items-center tec mt-4">
-                            <div>
-                                <p class="text-[#00303C]">Deadline</p>
-                                <h4 class="font-semibold text-xs">21 March 2025</h4>
-                            </div>
-                            <div>
-                                <button onclick="btn5Disabled()" id="cardBtn-5" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- card-6 -->
-                <div class="card card-border bg-base-100 w-max bg-[#F4F7FF] px-6 py-6 rounded-2xl">
-                    <div class="text-left items-start ">
-                        <div class="bg-white px-4 py-2 w-max rounded-lg  mb-4">
-                            <p class="text-[#00303C]">Glassdoar</p>
-                        </div>
-                        <h2 class="card-title mb-4">Improve Job searching </h2>
-                        <div class="bg-white rounded-lg items-start mb-4">
-                            <p class="py-4 px-4 text-[#0000008e]">Debug using Chrome <br>DevTools, check for
-                                overlappi...</p>
-                        </div>
-
-                        <div class="card-actions justify-end border-t-2 border-dashed border-[#b4c6f7] mt-3 mb-4">
-                        </div>
-
-                        <div class="flex justify-between items-center tec mt-4">
-                            <div>
-                                <p class="text-[#00303C]">Deadline</p>
-                                <h4 class="font-semibold text-xs">21 March 2025</h4>
-                            </div>
-                            <div>
-                                <button onclick="btn6Disabled()" id="cardBtn-6" class=" btn btn-primary bg-[#3752FD] rounded-lg">Completed</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            
-        </section>
-         
-    </section>
-    <section class=" rounded-2xl mx-auto bg-white w-1/4 ml-6">
-        <!-- sidebar section start -->
-        <div class="flex justify-end ">
-            <div class="w-11/12 bg-white rounded-xl">
-                <div class="flex flex-col mt-6">
-                    <div class="flex justify-center px-24">
-                        <img src="images/activity.png" alt="">
-                        <h2 class="pl-2 font-semibold">Activity Log</h2>
-    
-                    </div>
-                    <div class="flex justify-center mt-4">
-                        <button class="btn btn-primary bg-[#3752FD] rounded-lg mb-4">Clear History</button>
-                    </div>
-                    <hr class="border-b-0 border-dashed border-[#b4c6f7]">
-                </div>
-            </div>
-        </div>
-    
-    </section> 
-</section>
     </main>
     <script src="js/cardBoxs.js"></script>
     <script src="js/index.js"></script>
